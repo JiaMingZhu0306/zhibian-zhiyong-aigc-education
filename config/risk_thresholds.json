@@ -1,0 +1,13 @@
+{
+  "low_risk_max": 0.35,
+  "medium_risk_max": 0.75,
+  "high_risk_max": 0.9,
+  "label_names": {
+    "low": "低风险",
+    "medium": "中风险",
+    "high": "高风险",
+    "very_high": "高置信高风险"
+  },
+  "warning_text": "AIGC 风险指数仅供教师参考，不代表文本中 AI 生成内容占比，不作为纪律处分依据。"
+}
+

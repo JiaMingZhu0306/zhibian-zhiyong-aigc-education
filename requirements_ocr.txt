@@ -1,0 +1,8 @@
+rapidocr_onnxruntime
+opencv-python-headless
+pillow
+
+# 可选重依赖，按本机环境单独安装：
+# paddleocr
+# paddlepaddle
+# pytesseract

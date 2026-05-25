@@ -1,0 +1,9 @@
+﻿demo_id,demo_name,intended_level,assignment_type,aigc_risk_index,ai_probability,risk_level,model_source,note
+low_a,低风险演示样例 A,低风险,作文,5.08,0.0508,低风险,TF-IDF + Logistic Regression 基线模型,匿名生活化文本，含具体情境和个人感受
+low_b,低风险演示样例 B,低风险,读后感,3.73,0.0373,低风险,TF-IDF + Logistic Regression 基线模型,匿名阅读感受文本，保留个人理解
+medium_a,中风险演示样例 A,中风险,学习总结,49.17,0.4917,中风险,TF-IDF + Logistic Regression 基线模型,较规整总结型文本，用于中风险演示
+medium_b,中风险演示样例 B,中风险,研究性学习报告,41.32,0.4132,中风险,TF-IDF + Logistic Regression 基线模型,较规范但个人细节不足的过程总结
+high_a,高风险演示样例 A,高风险,学习总结,99.94,0.9994,高置信高风险,TF-IDF + Logistic Regression 基线模型,公开语料风格演示样例，不是真实学生文本
+high_b,高风险演示样例 B,高风险,研究性学习报告,99.87,0.9987,高置信高风险,TF-IDF + Logistic Regression 基线模型,公开语料风格演示样例，不是真实学生文本
+very_high_a,高参考风险演示样例 A,高参考风险,学习总结,99.97,0.9997,高置信高风险,TF-IDF + Logistic Regression 基线模型,公开语料高风险演示样例，不是真实学生文本
+very_high_b,高参考风险演示样例 B,高参考风险,其他,99.92,0.9992,高置信高风险,TF-IDF + Logistic Regression 基线模型,公开语料高风险演示样例，不是真实学生文本

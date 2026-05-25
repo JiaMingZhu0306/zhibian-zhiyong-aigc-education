@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+data/raw/
+data/processed/
+data/local/
+models/*.joblib
+reports/student_essay_external_validation_predictions.csv
+streamlit_server*.log
+streamlit_server*.err.log
+uploaded_images/
+ocr_cache/
+*.zip

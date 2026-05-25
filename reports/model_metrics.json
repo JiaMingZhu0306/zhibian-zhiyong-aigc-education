@@ -1,0 +1,95 @@
+{
+  "training_mode": "formal_public",
+  "formal_model_trained": true,
+  "trained_at": "2026-05-22 12:16:06",
+  "training_data_file": "data/processed/public_train.csv",
+  "threshold_selection_split": "public_val",
+  "risk_thresholds": {
+    "low_threshold": 0.5,
+    "high_threshold": 0.75
+  },
+  "validation_metrics": {
+    "accuracy": 0.9774,
+    "precision": 0.9802,
+    "recall": 0.9731,
+    "f1": 0.9766,
+    "per_class_support": {
+      "human": 2652,
+      "ai": 2492
+    },
+    "evaluated_on": "public_val",
+    "sample_count": 5144,
+    "threshold": 0.5
+  },
+  "note": "验证集用于阈值选择，最终效果以 public_test 评估为准。",
+  "final_evaluation_split": "public_test",
+  "test_metrics": {
+    "accuracy": 0.976,
+    "precision": 0.981,
+    "recall": 0.9697,
+    "f1": 0.9753,
+    "per_class_support": {
+      "human": 2608,
+      "ai": 2508
+    },
+    "evaluated_on": "public_test",
+    "final_evaluation_split": "public_test",
+    "threshold": 0.5,
+    "test_sample_count": 5116,
+    "confusion_matrix": {
+      "labels": [
+        "human",
+        "ai"
+      ],
+      "matrix": [
+        [
+          2561,
+          47
+        ],
+        [
+          76,
+          2432
+        ]
+      ]
+    },
+    "boundary_note": "该模型用于教学风险提示，不作为纪律处分依据。",
+    "length_bucket_performance": [
+      {
+        "bucket": "中文本",
+        "count": 2638,
+        "accuracy": 0.9822,
+        "precision": 0.9849,
+        "recall": 0.976,
+        "f1": 0.9804,
+        "per_class_support": {
+          "human": 1431,
+          "ai": 1207
+        }
+      },
+      {
+        "bucket": "短文本",
+        "count": 2081,
+        "accuracy": 0.9659,
+        "precision": 0.9747,
+        "recall": 0.9594,
+        "f1": 0.967,
+        "per_class_support": {
+          "human": 998,
+          "ai": 1083
+        }
+      },
+      {
+        "bucket": "长文本",
+        "count": 397,
+        "accuracy": 0.9874,
+        "precision": 0.9908,
+        "recall": 0.9862,
+        "f1": 0.9885,
+        "per_class_support": {
+          "human": 179,
+          "ai": 218
+        }
+      }
+    ]
+  }
+}

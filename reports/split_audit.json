@@ -1,0 +1,25 @@
+{
+  "train_rows": 23665,
+  "val_rows": 5144,
+  "test_rows": 5116,
+  "train_groups": 8916,
+  "val_groups": 1910,
+  "test_groups": 1912,
+  "overlap_train_val_groups": [],
+  "overlap_train_test_groups": [],
+  "overlap_val_test_groups": [],
+  "label_distribution_by_split": {
+    "train": {
+      "human": 12066,
+      "ai": 11599
+    },
+    "val": {
+      "human": 2652,
+      "ai": 2492
+    },
+    "test": {
+      "human": 2608,
+      "ai": 2508
+    }
+  }
+}

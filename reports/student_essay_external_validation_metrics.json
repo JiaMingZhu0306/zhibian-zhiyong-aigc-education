@@ -1,0 +1,39 @@
+{
+  "data_loaded": true,
+  "raw_sample_count": 93002,
+  "valid_sample_count": 92701,
+  "grade_distribution": {
+    "0": 22724,
+    "1": 20494,
+    "2": 17666,
+    "3": 11657,
+    "5": 11581,
+    "4": 8579
+  },
+  "category_distribution": {
+    "5": 32570,
+    "1": 26819,
+    "4": 16423,
+    "0": 8179,
+    "2": 6975,
+    "3": 1735
+  },
+  "risk_distribution": {
+    "低风险": 92648,
+    "中风险": 45,
+    "高风险": 8
+  },
+  "false_positive_observation": {
+    "medium_or_above_count": 53,
+    "medium_or_above_rate": 0.0006,
+    "high_or_above_count": 8,
+    "high_or_above_rate": 0.0001,
+    "very_high_count": 0,
+    "very_high_rate": 0.0
+  },
+  "messages": [
+    "发现本地压缩包：E:\\project_aigc\\data\\raw\\student_essays\\pretrain_essays.tar.bz2",
+    "pretrain_essays.json 读取 93002 条原始记录。"
+  ],
+  "limitation": "学生作文外部验证集只有 human 标签，只能观察模型对真实学生作文的误报风险，不能衡量 AI 文本召回率。"
+}
